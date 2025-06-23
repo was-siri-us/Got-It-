@@ -2,7 +2,7 @@
 
 A real-time classroom polling web application that allows teachers to gauge student understanding instantly. Built with **React**, **Express**, and **Socket.IO**, this tool enables live quizzes, polls, and feedback sessions to make learning interactive and responsive.
 
----
+
 
 ## 🚀 Features
 
@@ -13,7 +13,7 @@ A real-time classroom polling web application that allows teachers to gauge stud
 - 🔒 Session-based rooms to isolate classroom polls
 - ⚡ Fast and lightweight – suitable for live classroom environments
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -22,7 +22,7 @@ A real-time classroom polling web application that allows teachers to gauge stud
 - **WebSockets:** Socket.IO
 
 
----
+
 
 
 ## 📦 Installation
