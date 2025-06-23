@@ -43,8 +43,7 @@ npm install
 
 
 live-classroom-polling-tool/
-├── client/           # React frontend
-│   └── ...
+├── ...               # React frontend
 ├── server/           # Express + Socket.IO backend
 │   └── ...
 ├── README.md
