@@ -1,12 +1,51 @@
-# React + Vite
+# 🧠 Live Classroom Polling Tool ( In development )
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time classroom polling web application that allows teachers to gauge student understanding instantly. Built with **React**, **Express**, and **Socket.IO**, this tool enables live quizzes, polls, and feedback sessions to make learning interactive and responsive.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📡 Real-time communication using WebSockets (Socket.IO)
+- 🧑‍🏫 Teacher dashboard for creating polls/questions
+- 🙋‍♂️ Student interface to answer live polls
+- 📊 Live result updates for the teacher
+- 🔒 Session-based rooms to isolate classroom polls
+- ⚡ Fast and lightweight – suitable for live classroom environments
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS (optional)
+- **Backend:** Express.js (Node.js)
+- **WebSockets:** Socket.IO
+
+
+---
+
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/live-classroom-polling-tool.git
+cd live-classroom-polling-tool
+
+# Install backend dependencies
+cd server
+npm install
+
+# Install frontend dependencies
+npm install
+
+## 🧰 Project Structure
+
+
+live-classroom-polling-tool/
+├── client/           # React frontend
+│   └── ...
+├── server/           # Express + Socket.IO backend
+│   └── ...
+├── README.md
+└── package.json
