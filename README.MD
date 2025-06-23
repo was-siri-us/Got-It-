@@ -1,4 +1,4 @@
-# 🧠 Live Classroom Polling Tool ( In development )
+# 🧠 Live Classroom Polling Tool ( In Development )
 
 A real-time classroom polling web application that allows teachers to gauge student understanding instantly. Built with **React**, **Express**, and **Socket.IO**, this tool enables live quizzes, polls, and feedback sessions to make learning interactive and responsive.
 
